@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    style="
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    "
+  >
+    <form>
+      <div class="outer-container">
+        <h1>Create an Account</h1>
+        <div class="details-container">
+          <label for="name">Full Name</label>
+          <input type="text" name="name" id="name" />
+          <label for="email">Email</label>
+          <input type="text" name="name" id="name" />
+          <label for="pswd">Password</label>
+          <input type="password" name="pswd" id="pswd" />
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div class="buttons-container">
+          <button id="signup">Sign Up</button>
+          <p>OR</p>
+          <button id="google-signup">
+            <img
+              src="search.png"
+              alt="google-icon"
+              height="24px"
+              width="24px"
+            />
+            &nbsp; Sign Up with google
+          </button>
+        </div>
+        <p id="bottom">Already have an Account? <a href="#">Login</a></p>
+      </div>
+    </form>
+  </body>
+</html>
